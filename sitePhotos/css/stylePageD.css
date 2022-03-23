@@ -1,0 +1,105 @@
+body
+{
+    background-color: #FFFFFF;
+}
+
+ul
+{
+    color: #FFFFFF00;
+}
+
+a, h1, h2, p
+{
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
+
+h1, h2
+{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 300%;
+}
+
+h2
+{
+    margin-right: 25%;
+}
+
+h2.margeBas
+{
+    margin-bottom: -87px;
+}
+
+h1 {
+    text-align: center;
+    -webkit-animation: fadein 4s;
+  }
+
+@-webkit-keyframes fadein
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+a.positionHauteDroite
+{
+    position: fixed;
+    top: 0px;
+    right: 13px;
+    text-decoration: none;
+}
+
+a.positionHauteGauche
+{
+    position: fixed;
+    top: 28px;
+    left: -25px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+}
+
+a.positionBasDroite
+{
+    position: fixed;
+    bottom: 40px;
+    right: -28px;
+    text-decoration: none;
+    transform: rotate(90deg);
+}
+
+a.positionBasGauche
+{
+    position: fixed;
+    bottom: 75px;
+    left: -71px;
+    text-decoration: none;
+    transform: rotate(-90deg);
+}
+
+a
+{
+    font-size: 190%;
+}
+
+img.vertical
+{
+    margin: 12%;
+}
+
+img.horizontale
+{
+    margin: 8%;
+}
+
+img:hover
+{
+    opacity: 0.3;
+}
+
+a.lien
+{
+    font-size: 120%;
+}
+
+/* mondesetmultitudes@gmail.com
